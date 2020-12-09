@@ -25,7 +25,7 @@ def union_conjuntos(A, B):
     return A.extend(B)
 
 def AUB(A, B):
-    return A+B
+    return set(A).union(B)
 
 def AnB(A, B):
     return set(A).intersection(B)
