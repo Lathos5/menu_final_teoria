@@ -41,9 +41,6 @@ for element in actual_nodes:
         if relacion == 1:
             agregar_nodo(element, target)
 
- 
-
-
 elarge = [(u, v) for (u, v, d) in G.edges(data=True) if d["weight"] > 0.5]
 esmall = [(u, v) for (u, v, d) in G.edges(data=True) if d["weight"] <= 0.5]
 
